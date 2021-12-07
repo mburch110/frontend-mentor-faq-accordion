@@ -1,0 +1,43 @@
+@use "../abstracts" as a;
+
+.c-body {
+  margin: 0;
+  padding: 23px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(a.$cl-bg-soft-violet, a.$cl-bg-soft-blue)
+    no-repeat;
+}
+
+.c-main {
+  background: #fff;
+  padding: 48px 25px;
+  border-radius: 20px;
+}
+
+.c-headline {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: a.$cl-text-very-dark-desaturated-blue;
+  margin-bottom: 13px;
+}
+
+.c-question-answer {
+  border-bottom: 1px solid a.$cl-dividers-light-grayish-blue;
+  padding: 18px 0;
+}
+
+.c-question-answer__head {
+  font-size: 14px;
+  font-weight: 400;
+  color: a.$cl-text-very-dark-grayish-blue;
+  margin-bottom: 15px;
+}
+
+.c-question-answer__text {
+  color: a.$cl-text-dark-grayish-blue;
+}

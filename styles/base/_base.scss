@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 12px;
+}
+
+p,
+h1,
+h2 {
+  margin: 0;
+}
