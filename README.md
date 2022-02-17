@@ -1,3 +1,3 @@
 # Frontend Mentor - FAQ accordion card
 
--- coming soon
+- coming soon
